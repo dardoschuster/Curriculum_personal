@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 16px Helvetica, Sans-Serif;
+    line-height: 24px;
+    background: url(images/noise.jpg);
+}
+
+.clear {
+    clear: both;
+}
+
+.resaltado {
+    font-weight: bold;
+}
+
+#page-wrap {
+    width: 800px;
+    margin: 40px auto 60px;
+}
+
+#pic {
+    float: left;
+    margin: 10px 0 0 0;
+}
+
+h1 {
+    margin: 10px 0 16px 0;
+    padding: 0 0 16px 0;
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    border-bottom: 1px solid #999;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0 5px 6px 10px;
+    position: relative;
+}
+
+h2 span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-style: italic;
+    font-family: Georgia, Serif;
+    font-size: 16px;
+    color: #999;
+    font-weight: normal;
+}
+
+p {
+    margin: 0 5px 16px 17px;
+}
+
+a {
+    color: #999;
+    text-decoration: none;
+    border-bottom: 1px dotted #999;
+}
+
+a:hover {
+    border-bottom-style: solid;
+    color: black;
+}
+
+ul {
+    margin: 0 0 32px 17px;
+    list-style: none;
+}
+
+#objectivo {
+    width: 500px;
+    float: left;
+}
+
+#objectivo p {
+    font-family: Georgia, Serif;
+    font-style: italic;
+    color: #666;
+}
+
+dt {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+    padding: 0 26px 0 0;
+    width: 150px;
+    float: left;
+    height: 100px;
+    
+}
+
+dd {
+    width: 600px;
+    float: right;
+    border-left: 1px solid #999;
+    margin-left: 5px;
+}
+
+dd.clear {
+    float: none;
+    margin: 0;
+    height: 15px;
+    border-style: none;
+}
